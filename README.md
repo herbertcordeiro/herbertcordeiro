@@ -1,16 +1,16 @@
-### Hi there 👋
+```ts
+import Developer from "herbertcordeiro";
 
-<!--
-**herbertcordeiro/herbertcordeiro** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class AboutMe extends Developer {
+  name: string = "Herbert Cordeiro";
+  area: string = "Frontend Engineer";
+  job: string = "Software Developer at VIRTUS";
+  location: string = "João Pessoa, Brazil";
+}
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Skills extends Developer {
+  languages: string[] = ["JavaScript (TypeScript, Node.js)", "Java", "Python"];
+  frameworks: string[] = ["Angular", "React.js", "React Native"];
+  databases: string[] = ["SQL Server", "MySQL", "PostgreSQL"];
+}
+```
